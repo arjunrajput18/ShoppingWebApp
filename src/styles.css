@@ -57,8 +57,8 @@ font-family: Montserrat;
 .btn{
     padding: 0.5rem;
     width: 80%;
-    margin: 1rem;
-    background-color: #4CAF50;
+    margin: 1rem ;
+    background-color: red;;
     color: white;
     border-radius:0.4rem;
     -webkit-border-radius:0.4rem;
@@ -77,8 +77,8 @@ font-family: Montserrat;
 .btn-add-to-cart{
 width: 45%;
 padding: 0.5rem;
-margin: 0.5rem 0rem;
-background-color: #4CAF50;
+margin: 1rem;
+background-color: #a21caf;
 color: white;
 border: #4CAF50;
 border-radius:0.4rem;
@@ -91,4 +91,36 @@ border-radius:0.4rem;
 .innerInfo{
     padding-left:1rem ;
 
+}
+.innerCart{
+    margin:3rem;
+    border: 1px solid black;
+}
+
+.innerCartImg{
+width: 100%;
+}
+
+.cartContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:3rem;
+    list-style-type: none;
+}
+.btn-remove-from-cart{
+    width: 70%;
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    border: red;
+    color: white;
+    margin: 1rem 0rem;
+}
+.cartIcon{
+    width: 50px;
+    height: 30px;
 }
