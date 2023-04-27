@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+font-family: Montserrat;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #a21caf;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
+.container{
+    display: flex;
+    list-style-type: none;
+
+}
+.innerContainer{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+ 
+}
+
+
+.innerListImg{
+    width: 100% ; 
+}
+
+.filters{
+    margin: 0 1rem;
+    ;
+  
+}
+.filters form{
+    align-self: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #a21caf;
+    color: white;
+}
+.filters form label{
+    margin-bottom: 2rem;
+    margin:1rem ;
+}
+.btn{
+    padding: 0.5rem;
+    width: 80%;
+    margin: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border-radius:0.4rem;
+    -webkit-border-radius:0.4rem;
+    -moz-border-radius:0.4rem;
+    -ms-border-radius:0.4rem;
+    -o-border-radius:0.4rem;
+    border: #4CAF50;
+}
+
+
+.searchBox{
+    width: 25%;
+    height: 40%;
+    
+}
+.btn-add-to-cart{
+width: 45%;
+padding: 0.5rem;
+margin: 0.5rem 0rem;
+background-color: #4CAF50;
+color: white;
+border: #4CAF50;
+border-radius:0.4rem;
+}
+
+.innerlist{
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+.innerInfo{
+    padding-left:1rem ;
+
+}
