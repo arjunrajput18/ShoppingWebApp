@@ -21,6 +21,8 @@ export const Context = ({ children }) => {
     cart: [],
   });
 
+
+  console.log(state.cart);
   return (
     <Cart.Provider value={{  state, dispatch }}>
       {children}
