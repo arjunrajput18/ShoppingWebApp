@@ -109,6 +109,7 @@ width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     margin:3rem;
     list-style-type: none;
+
 }
 .btn-remove-from-cart{
     width: 70%;
@@ -143,9 +144,6 @@ width: 100%;
      padding: 5px;
 }
 
-
-
-
 .btn-Coupon{
     background-color: #a21caf;
     color: white;
@@ -160,3 +158,14 @@ width: 100%;
 
    
 }
+@media (max-width: 480px) {
+    /* CSS rules for small screens go here */
+    .innerContainer, .cartContainer{
+      
+        grid-template-columns: 1fr;
+      }
+  }
+
+/* @media only screen and (max-width: 600px) {
+   
+  } */
