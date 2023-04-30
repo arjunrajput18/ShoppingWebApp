@@ -1,9 +1,12 @@
 import React from "react";
 import { Header } from "./components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "./components/Home";
-import { Cart } from "./components/Cart";
+
+
 import "./styles.css"
+import { Home } from "./pages/Home";
+import { Cart } from "./pages/Cart";
+
 const App = () => {
   return (
     <div>

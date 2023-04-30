@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 font-family: Montserrat;
+
 }
 
 .navbar {
@@ -17,6 +18,8 @@ font-family: Montserrat;
     background-color: #a21caf;
     color: white;
     margin-bottom: 1rem;
+    position: sticky;
+    top: 0px;
 }
 
 
@@ -40,7 +43,7 @@ font-family: Montserrat;
 
 .filters{
     margin: 0 1rem;
-    ;
+      ;
   
 }
 .filters form{
@@ -123,4 +126,37 @@ width: 100%;
 .cartIcon{
     width: 50px;
     height: 30px;
+ 
+}
+
+
+.squareCart{
+     position: relative;
+     bottom: 25px;
+     right: 12px;
+     background-color: darkcyan;
+     border-radius:8px;
+     -webkit-border-radius:8px;
+     -moz-border-radius:8px;
+     -ms-border-radius:8px;
+     -o-border-radius:8px;
+     padding: 5px;
+}
+
+
+
+
+.btn-Coupon{
+    background-color: #a21caf;
+    color: white;
+    padding: 0.5rem;
+    margin: 10px;
+    border: 1px solid #a21caf;
+
+}
+
+.card-ratings{
+    color: rgb(162, 145, 35);
+
+   
 }
