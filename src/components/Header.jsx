@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <>
       <div className="navbar ">
-       <NavLink to="/" style={{textDecoration:"none" ,color:"white"}}><h2>Shopping Cart</h2></NavLink> 
+       <NavLink to="/" style={{textDecoration:"none" ,color:"white"}}><h2>SpeedyBuy </h2></NavLink> 
         <input type="text" placeholder="Search Here"  className="searchBox" onChange={(e)=>productDispatch({type: "SEARCH_TO_CART", payLoad:e.target.value})}/>
         <div className="cartList">
         <NavLink  to="/cart"  style={{textDecoration:"none" ,color:"white" }}> 
